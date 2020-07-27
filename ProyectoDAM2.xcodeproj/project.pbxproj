@@ -12,6 +12,8 @@
 		AC64415A24CEA8DC00BC810A /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC64415924CEA8DC00BC810A /* HomeViewController.swift */; };
 		AC64415C24CEB57200BC810A /* HomeViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = AC64415B24CEB57200BC810A /* HomeViewController.xib */; };
 		AC64415E24CF11EC00BC810A /* .gitignore in Resources */ = {isa = PBXBuildFile; fileRef = AC64415D24CF11EC00BC810A /* .gitignore */; };
+		AC64416024CF396A00BC810A /* MovementViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC64415F24CF396A00BC810A /* MovementViewController.swift */; };
+		AC64416224CF39C900BC810A /* MovementViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = AC64416124CF39C900BC810A /* MovementViewController.xib */; };
 		ACF67A2C24CD0A90001E7F1D /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = ACF67A2B24CD0A90001E7F1D /* AppDelegate.swift */; };
 		ACF67A2E24CD0A90001E7F1D /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = ACF67A2D24CD0A90001E7F1D /* SceneDelegate.swift */; };
 		ACF67A3024CD0A91001E7F1D /* AuthViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = ACF67A2F24CD0A91001E7F1D /* AuthViewController.swift */; };
@@ -26,6 +28,8 @@
 		AC64415924CEA8DC00BC810A /* HomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewController.swift; sourceTree = "<group>"; };
 		AC64415B24CEB57200BC810A /* HomeViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = HomeViewController.xib; sourceTree = "<group>"; };
 		AC64415D24CF11EC00BC810A /* .gitignore */ = {isa = PBXFileReference; lastKnownFileType = text; path = .gitignore; sourceTree = "<group>"; };
+		AC64415F24CF396A00BC810A /* MovementViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MovementViewController.swift; sourceTree = "<group>"; };
+		AC64416124CF39C900BC810A /* MovementViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = MovementViewController.xib; sourceTree = "<group>"; };
 		ACF67A2824CD0A90001E7F1D /* ProyectoDAM2.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ProyectoDAM2.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		ACF67A2B24CD0A90001E7F1D /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		ACF67A2D24CD0A90001E7F1D /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -99,6 +103,8 @@
 				ACF67A3924CD0AF8001E7F1D /* Info.plist */,
 				AC64415924CEA8DC00BC810A /* HomeViewController.swift */,
 				AC64415B24CEB57200BC810A /* HomeViewController.xib */,
+				AC64415F24CF396A00BC810A /* MovementViewController.swift */,
+				AC64416124CF39C900BC810A /* MovementViewController.xib */,
 			);
 			path = ProyectoDAM2;
 			sourceTree = "<group>";
@@ -165,6 +171,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				ACF67A3824CD0AF8001E7F1D /* LaunchScreen.storyboard in Resources */,
+				AC64416224CF39C900BC810A /* MovementViewController.xib in Resources */,
 				AC64415824CE897600BC810A /* GoogleService-Info.plist in Resources */,
 				AC64415C24CEB57200BC810A /* HomeViewController.xib in Resources */,
 				ACF67A3524CD0AF8001E7F1D /* Assets.xcassets in Resources */,
@@ -239,6 +246,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				AC64416024CF396A00BC810A /* MovementViewController.swift in Sources */,
 				ACF67A3024CD0A91001E7F1D /* AuthViewController.swift in Sources */,
 				ACF67A2C24CD0A90001E7F1D /* AppDelegate.swift in Sources */,
 				ACF67A2E24CD0A90001E7F1D /* SceneDelegate.swift in Sources */,

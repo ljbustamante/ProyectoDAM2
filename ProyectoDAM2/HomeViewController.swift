@@ -10,6 +10,7 @@ import UIKit
 import FirebaseAuth
 import GoogleSignIn
 import FacebookLogin
+import FirebaseFirestore
 
 enum ProviderType: String{
     case basic
@@ -25,9 +26,15 @@ class HomeViewController: UIViewController {
     private let email: String
     private let provider: ProviderType
     
+    var db: Firestore!
+    
     init(email: String, provider: ProviderType){
         self.email = email
         self.provider = provider
+        
+        let settings = FirestoreSettings()
+        Firestore.firestore().settings = settings
+        db = Firestore.firestore()
         
         super.init(nibName: nil, bundle: nil)
     }
@@ -70,6 +77,12 @@ class HomeViewController: UIViewController {
         }
         
         navigationController?.popViewController(animated: true)
+    }
+    
+    @IBAction func addMovementAction(_ sender: Any) {
+        self.navigationController?.pushViewController(MovementViewController(email: self.email, provider: self.provider), animated: true)
+    }
+    @IBAction func viewMovementsAction(_ sender: Any) {
     }
     
     private func firebaseLogOut(){
