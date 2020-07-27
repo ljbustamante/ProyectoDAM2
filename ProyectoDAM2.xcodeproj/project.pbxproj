@@ -3,27 +3,39 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 51;
 	objects = {
 
 /* Begin PBXBuildFile section */
+		33DDB17D4678153755A1B265 /* Pods_ProyectoDAM2.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 29D93AF53E1EF0BB85EABAE2 /* Pods_ProyectoDAM2.framework */; };
+		AC64415824CE897600BC810A /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = AC64415724CE897600BC810A /* GoogleService-Info.plist */; };
+		AC64415A24CEA8DC00BC810A /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC64415924CEA8DC00BC810A /* HomeViewController.swift */; };
+		AC64415C24CEB57200BC810A /* HomeViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = AC64415B24CEB57200BC810A /* HomeViewController.xib */; };
+		AC64415E24CF11EC00BC810A /* .gitignore in Resources */ = {isa = PBXBuildFile; fileRef = AC64415D24CF11EC00BC810A /* .gitignore */; };
 		ACF67A2C24CD0A90001E7F1D /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = ACF67A2B24CD0A90001E7F1D /* AppDelegate.swift */; };
 		ACF67A2E24CD0A90001E7F1D /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = ACF67A2D24CD0A90001E7F1D /* SceneDelegate.swift */; };
-		ACF67A3024CD0A91001E7F1D /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = ACF67A2F24CD0A91001E7F1D /* ViewController.swift */; };
+		ACF67A3024CD0A91001E7F1D /* AuthViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = ACF67A2F24CD0A91001E7F1D /* AuthViewController.swift */; };
 		ACF67A3324CD0A91001E7F1D /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = ACF67A3124CD0A91001E7F1D /* Main.storyboard */; };
 		ACF67A3524CD0AF8001E7F1D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = ACF67A3424CD0AF8001E7F1D /* Assets.xcassets */; };
 		ACF67A3824CD0AF8001E7F1D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = ACF67A3624CD0AF8001E7F1D /* LaunchScreen.storyboard */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		29D93AF53E1EF0BB85EABAE2 /* Pods_ProyectoDAM2.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_ProyectoDAM2.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		AC64415724CE897600BC810A /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		AC64415924CEA8DC00BC810A /* HomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewController.swift; sourceTree = "<group>"; };
+		AC64415B24CEB57200BC810A /* HomeViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = HomeViewController.xib; sourceTree = "<group>"; };
+		AC64415D24CF11EC00BC810A /* .gitignore */ = {isa = PBXFileReference; lastKnownFileType = text; path = .gitignore; sourceTree = "<group>"; };
 		ACF67A2824CD0A90001E7F1D /* ProyectoDAM2.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ProyectoDAM2.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		ACF67A2B24CD0A90001E7F1D /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		ACF67A2D24CD0A90001E7F1D /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		ACF67A2F24CD0A91001E7F1D /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		ACF67A2F24CD0A91001E7F1D /* AuthViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AuthViewController.swift; sourceTree = "<group>"; };
 		ACF67A3224CD0A91001E7F1D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		ACF67A3424CD0AF8001E7F1D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		ACF67A3724CD0AF8001E7F1D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		ACF67A3924CD0AF8001E7F1D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		DBEAF574B15DEB57C3ED9F1E /* Pods-ProyectoDAM2.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ProyectoDAM2.release.xcconfig"; path = "Target Support Files/Pods-ProyectoDAM2/Pods-ProyectoDAM2.release.xcconfig"; sourceTree = "<group>"; };
+		FA58E08E3983935CF73DD437 /* Pods-ProyectoDAM2.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ProyectoDAM2.debug.xcconfig"; path = "Target Support Files/Pods-ProyectoDAM2/Pods-ProyectoDAM2.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -31,17 +43,38 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				33DDB17D4678153755A1B265 /* Pods_ProyectoDAM2.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		763EC2493F12FF5B20093E51 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				29D93AF53E1EF0BB85EABAE2 /* Pods_ProyectoDAM2.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		9157EDF2BF54C365046D25A4 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				FA58E08E3983935CF73DD437 /* Pods-ProyectoDAM2.debug.xcconfig */,
+				DBEAF574B15DEB57C3ED9F1E /* Pods-ProyectoDAM2.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
 		ACF67A1F24CD0A8F001E7F1D = {
 			isa = PBXGroup;
 			children = (
+				AC64415D24CF11EC00BC810A /* .gitignore */,
 				ACF67A2A24CD0A90001E7F1D /* ProyectoDAM2 */,
 				ACF67A2924CD0A90001E7F1D /* Products */,
+				9157EDF2BF54C365046D25A4 /* Pods */,
+				763EC2493F12FF5B20093E51 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -56,13 +89,16 @@
 		ACF67A2A24CD0A90001E7F1D /* ProyectoDAM2 */ = {
 			isa = PBXGroup;
 			children = (
+				AC64415724CE897600BC810A /* GoogleService-Info.plist */,
 				ACF67A2B24CD0A90001E7F1D /* AppDelegate.swift */,
 				ACF67A2D24CD0A90001E7F1D /* SceneDelegate.swift */,
-				ACF67A2F24CD0A91001E7F1D /* ViewController.swift */,
+				ACF67A2F24CD0A91001E7F1D /* AuthViewController.swift */,
 				ACF67A3124CD0A91001E7F1D /* Main.storyboard */,
 				ACF67A3424CD0AF8001E7F1D /* Assets.xcassets */,
 				ACF67A3624CD0AF8001E7F1D /* LaunchScreen.storyboard */,
 				ACF67A3924CD0AF8001E7F1D /* Info.plist */,
+				AC64415924CEA8DC00BC810A /* HomeViewController.swift */,
+				AC64415B24CEB57200BC810A /* HomeViewController.xib */,
 			);
 			path = ProyectoDAM2;
 			sourceTree = "<group>";
@@ -74,9 +110,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = ACF67A3C24CD0AF8001E7F1D /* Build configuration list for PBXNativeTarget "ProyectoDAM2" */;
 			buildPhases = (
+				36C8E75BB26FBA74BD050CA7 /* [CP] Check Pods Manifest.lock */,
 				ACF67A2424CD0A90001E7F1D /* Sources */,
 				ACF67A2524CD0A90001E7F1D /* Frameworks */,
 				ACF67A2624CD0A90001E7F1D /* Resources */,
+				385C5C3CF971724026C5F999 /* [CP] Embed Pods Frameworks */,
+				D4652BA8D9404D1A81859AA9 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -126,21 +165,84 @@
 			buildActionMask = 2147483647;
 			files = (
 				ACF67A3824CD0AF8001E7F1D /* LaunchScreen.storyboard in Resources */,
+				AC64415824CE897600BC810A /* GoogleService-Info.plist in Resources */,
+				AC64415C24CEB57200BC810A /* HomeViewController.xib in Resources */,
 				ACF67A3524CD0AF8001E7F1D /* Assets.xcassets in Resources */,
+				AC64415E24CF11EC00BC810A /* .gitignore in Resources */,
 				ACF67A3324CD0A91001E7F1D /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		36C8E75BB26FBA74BD050CA7 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-ProyectoDAM2-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		385C5C3CF971724026C5F999 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-ProyectoDAM2/Pods-ProyectoDAM2-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-ProyectoDAM2/Pods-ProyectoDAM2-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-ProyectoDAM2/Pods-ProyectoDAM2-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		D4652BA8D9404D1A81859AA9 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-ProyectoDAM2/Pods-ProyectoDAM2-resources-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Copy Pods Resources";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-ProyectoDAM2/Pods-ProyectoDAM2-resources-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-ProyectoDAM2/Pods-ProyectoDAM2-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		ACF67A2424CD0A90001E7F1D /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				ACF67A3024CD0A91001E7F1D /* ViewController.swift in Sources */,
+				ACF67A3024CD0A91001E7F1D /* AuthViewController.swift in Sources */,
 				ACF67A2C24CD0A90001E7F1D /* AppDelegate.swift in Sources */,
 				ACF67A2E24CD0A90001E7F1D /* SceneDelegate.swift in Sources */,
+				AC64415A24CEA8DC00BC810A /* HomeViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -282,6 +384,7 @@
 		};
 		ACF67A3D24CD0AF8001E7F1D /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = FA58E08E3983935CF73DD437 /* Pods-ProyectoDAM2.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -299,6 +402,7 @@
 		};
 		ACF67A3E24CD0AF8001E7F1D /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = DBEAF574B15DEB57C3ED9F1E /* Pods-ProyectoDAM2.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
